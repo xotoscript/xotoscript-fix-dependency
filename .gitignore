@@ -1,0 +1,92 @@
+# FILE CREATED USING '.GITIGNORE GENERATOR' FOR VISUAL STUDIO CODE: HTTPS://BIT.LY/VSCODE-GIG
+
+# CREATED BY HTTPS://WWW.TOPTAL.COM/DEVELOPERS/GITIGNORE/API/VISUALSTUDIOCODE,MACOS
+# EDIT AT HTTPS://WWW.TOPTAL.COM/DEVELOPERS/GITIGNORE?TEMPLATES=VISUALSTUDIOCODE,MACOS
+
+### CUSTOM ###
+
+# IGNORE ARTIFACTS:
+build
+coverage
+target
+**/.eslintcache
+**/coverage
+.turbo
+out
+*.pem
+
+dist
+node_modules/
+coverage/
+lerna-debug.log
+
+# documentations/
+
+### MACOS ###
+# GENERAL
+.DS_Store
+.AppleDouble
+.LSOverride
+
+**/*.tgz
+
+# THUMBNAILS
+._*
+
+# FILES THAT MIGHT APPEAR IN THE ROOT OF A VOLUME
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# DIRECTORIES POTENTIALLY CREATED ON REMOTE AFP SHARE
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### VISUALSTUDIOCODE ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VISUALSTUDIOCODE PATCH ###
+# IGNORE ALL LOCAL HISTORY OF FILES
+.history
+
+# END OF HTTPS://WWW.TOPTAL.COM/DEVELOPERS/GITIGNORE/API/VISUALSTUDIOCODE,MACOS
+
+# CUSTOM RULES (EVERYTHING ADDED BELOW WON'T BE OVERRIDEN BY 'GENERATE .GITIGNORE FILE' IF YOU USE 'UPDATE' OPTION)
+
+**/node_modules
+**/dist
+# DOCKER
+
+# OS
+.DS_Store
+
+# DATABASE
+database/*
+!database/.gitkeep
+
+#**/lib
+.idea
+.eslintcache
+
+dump.rdb
+
+# CAPACITOR
+**/ios
+**/android
+.env*
+!.env.project
+!.env.vault
+
+**/storybook-static
